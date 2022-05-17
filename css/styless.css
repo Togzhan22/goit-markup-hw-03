@@ -1,0 +1,272 @@
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+ :root {
+    --primary-text-color: #212121;
+    --title-color: #757575;
+    --primary-font-family: 'Roboto';
+    --primary-text-color-theme-light: #E5E5E5;
+    --secondary-text-color-theme-light: #F5F4FA;
+    --primary-text-color-theme-dark: #2F303A;
+}
+
+.body {
+    font-family: var(--primary-font-family), sans-serif;
+    font-style: normal;
+}
+
+
+/*цвет основного текста #212121*/
+
+
+/*цвет вторичного текста #757575*/
+
+
+/*белый #FFFFFF*/
+
+
+/*акцент #2196F3*/
+
+
+/*цвет основного фона #E5E5E5*/
+
+
+/*цвет вторичного фона #F5F4FA*/
+
+
+/*      HEADER    */
+
+.page-header {
+    background-color: #FFFFFF;
+    color: var(--primary-text-color);
+}
+
+.logo {
+    color: #2196F3;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1, 19;
+}
+
+.logo-accent {
+    color: var(--primary-text-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1, 19;
+}
+
+.logo-accent-footer {
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1, 19;
+}
+
+.menu {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+
+/*site-nav*/
+
+.site-nav {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.site-nav:hover,
+.site-nav:focus {
+    color: #2196F3;
+}
+
+.site-nav.current {
+    color: #2196F3;
+}
+
+
+/*contact-nav*/
+
+.contact-nav {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.contact-nav:hover,
+.contact-nav:focus {
+    color: #2196F3;
+}
+
+.modal-btn {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: Center;
+    letter-spacing: 0.06em;
+    cursor: pointer
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+    background-color: #188CE8;
+    color: #FFFFFF;
+}
+
+.style-btn {
+    background-color: #FFFFFF;
+    color: var(--primary-text-color);
+    font-weight: 500;
+    Font-size: 16px;
+    Line-height: 1.62;
+    text-align: Center;
+    cursor: pointer
+}
+
+.style-btn:hover,
+.style-btn:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.style-btn.current {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+
+/*   hero  */
+
+.hero {
+    color: #FFFFFF;
+    background-color: var(--primary-text-color-theme-dark);
+    text-align: Center;
+    font-weight: 900;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: Center;
+    vertical-align: Top;
+    letter-spacing: 0.06em;
+}
+
+
+/* section  */
+
+.section-theme-light {
+    background-color: var(--primary-text-color-theme-light);
+}
+
+.section-title-theme-light {
+    background-color: var(--primary-text-color-theme-light);
+}
+
+.title-theme-light {
+    background-color: var(--secondary-text-color-theme-light);
+}
+
+.section-background-theme-light {
+    background-color: var(--primary-text-color-theme-light);
+}
+
+.section {
+    color: var(--primary-text-color);
+}
+
+.section-title {
+    font-weight: 700;
+    Font-size: 36px;
+    Line-height: 1.16;
+    text-align: Center;
+}
+
+.feature-title {
+    font-weight: 700;
+    Font-size: 14px;
+    Line-height: 1.14;
+}
+
+.employees-name {
+    font-weight: 500;
+    Font-size: 16px;
+    Line-height: 1.18;
+    text-align: Center;
+}
+
+.employees-position {
+    color: var(--title-color);
+    font-weight: 400;
+    Font-size: 16px;
+    Line-height: 1.18;
+    text-align: Center;
+}
+
+.text {
+    color: var(--title-color);
+    font-weight: 400;
+    Font-size: 14px;
+    Line-height: 1.71;
+}
+
+.section-works {
+    font-weight: 700;
+    Font-size: 18px;
+    Line-height: 2;
+}
+
+.subtytle {
+    color: var(--title-color);
+    font-weight: 400;
+    Font-size: 16px;
+    Line-height: 1.87;
+}
+
+
+/*    FOOTER   */
+
+.address {
+    font-style: normal;
+}
+
+.contact-info {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.contact-info:hover,
+.contact-info:focus {
+    color: #2196F3;
+}
+
+.contact-info-item {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.contact-info-item:hover,
+.contact-info-item:focus {
+    color: #2196F3;
+}
+
+.footer {
+    background-color: var(--primary-text-color-theme-dark);
+}
