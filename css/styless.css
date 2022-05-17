@@ -1,5 +1,22 @@
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
 .list {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .link {
@@ -74,6 +91,8 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    padding-top: 32px;
+    padding-bottom: 32px
 }
 
 
@@ -116,7 +135,11 @@
     line-height: 1.87;
     text-align: Center;
     letter-spacing: 0.06em;
-    cursor: pointer
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 32px, 10px;
+    min-width: 200px;
 }
 
 .modal-btn:hover,
@@ -146,6 +169,12 @@
     background-color: #2196F3;
 }
 
+.container {
+    width: 1230px;
+    padding: left 15px;
+    padding-right: 15px;
+}
+
 
 /*   hero  */
 
@@ -163,6 +192,8 @@
     text-align: Center;
     vertical-align: Top;
     letter-spacing: 0.06em;
+    margin-top: 200px;
+    margin-bottom: 30px;
 }
 
 
@@ -185,7 +216,8 @@
 }
 
 .section {
-    color: var(--primary-text-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .section-title {
