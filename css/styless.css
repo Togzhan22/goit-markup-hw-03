@@ -26,7 +26,7 @@ ol {
  :root {
     --primary-text-color: #212121;
     --title-color: #757575;
-    --primary-font-family: 'Roboto';
+    --primary-font-family: "Roboto";
     --primary-text-color-theme-light: #E5E5E5;
     --secondary-text-color-theme-light: #F5F4FA;
     --primary-text-color-theme-dark: #2F303A;
@@ -149,7 +149,7 @@ ol {
 }
 
 .style-btn {
-    background-color: #FFFFFF;
+    background-color: var(--secondary-text-color-theme-light);
     color: var(--primary-text-color);
     font-weight: 500;
     Font-size: 16px;
@@ -171,7 +171,7 @@ ol {
 
 .container {
     width: 1230px;
-    padding: left 15px;
+    padding-left: 15px;
     padding-right: 15px;
 }
 
@@ -256,6 +256,7 @@ ol {
 }
 
 .section-works {
+    color: var(--primary-text-color);
     font-weight: 700;
     Font-size: 18px;
     Line-height: 2;
