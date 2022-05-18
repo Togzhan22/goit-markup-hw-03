@@ -157,10 +157,11 @@ img {
     display: flex;
     justify-content: center;
     margin-bottom: 34px;
-    margin-right: 8px;
 }
 
-.filters-btn {}
+.filters-btn {
+    margin-right: 8px;
+}
 
 
 /*site-nav*/
