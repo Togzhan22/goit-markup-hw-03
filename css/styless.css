@@ -13,6 +13,10 @@ ol {
     padding-left: 0;
 }
 
+img {
+    display: block;
+}
+
 .list {
     list-style: none;
     padding: 0;
@@ -55,12 +59,20 @@ ol {
 
 /*цвет вторичного фона #F5F4FA*/
 
+.container {
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 
 /*      HEADER    */
 
 .page-header {
-    background-color: #FFFFFF;
+    background-color: #ECECEC;
     color: var(--primary-text-color);
+    text-align: left;
+    width: 1200px
 }
 
 .logo {
@@ -69,6 +81,9 @@ ol {
     font-weight: 700;
     font-size: 26px;
     line-height: 1, 19;
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .logo-accent {
@@ -91,9 +106,58 @@ ol {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    padding-top: 32px;
-    padding-bottom: 32px
+    display: flex;
+    margin-left: 93px;
 }
+
+.menu li {
+    margin-right: 50px;
+}
+
+.menu .menu-item:last-child {
+    margin-right: 0;
+}
+
+.menu .site-nav {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.menu .contact-nav {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.menu-contact {
+    display: flex;
+    margin-left: 331px;
+}
+
+.menu-contact li {
+    margin-right: 50px;
+}
+
+.menu-contact .contact-nav {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.main-nav {
+    display: flex;
+    align-items: ;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 34px;
+    margin-right: 8px;
+}
+
+.filters-btn {}
 
 
 /*site-nav*/
@@ -169,12 +233,6 @@ ol {
     background-color: #2196F3;
 }
 
-.container {
-    width: 1230px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
 
 /*   hero  */
 
@@ -192,7 +250,6 @@ ol {
     text-align: Center;
     vertical-align: Top;
     letter-spacing: 0.06em;
-    margin-top: 200px;
     margin-bottom: 30px;
 }
 
@@ -218,6 +275,13 @@ ol {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+    width: 1200px;
+    padding-left: 15px;
+    padding-left: 15px;
+}
+
+.feature-list {
+    margin-right: 30px;
 }
 
 .section-title {
@@ -225,12 +289,35 @@ ol {
     Font-size: 36px;
     Line-height: 1.16;
     text-align: Center;
+    margin-bottom: 50px;
+}
+
+.feature {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.employees {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.image-list {
+    margin-right: 30px;
 }
 
 .feature-title {
     font-weight: 700;
     Font-size: 14px;
     Line-height: 1.14;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.employees-photo {
+    margin-right: 30px;
 }
 
 .employees-name {
@@ -238,6 +325,8 @@ ol {
     Font-size: 16px;
     Line-height: 1.18;
     text-align: Center;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .employees-position {
@@ -276,11 +365,14 @@ ol {
     font-style: normal;
 }
 
+.address-list {}
+
 .contact-info {
     color: #FFFFFF;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    margin-top: 20px;
 }
 
 .contact-info:hover,
@@ -302,4 +394,5 @@ ol {
 
 .footer {
     background-color: var(--primary-text-color-theme-dark);
+    width: 1200px;
 }
