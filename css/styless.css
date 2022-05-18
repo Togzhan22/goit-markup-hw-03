@@ -60,9 +60,11 @@ img {
 /*цвет вторичного фона #F5F4FA*/
 
 .container {
-    width: 1230px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -82,7 +84,7 @@ img {
     font-size: 26px;
     line-height: 1, 19;
     display: block;
-    padding-top: 25px;
+    padding-top: 24px;
     padding-bottom: 25px;
 }
 
@@ -132,7 +134,8 @@ img {
 
 .menu-contact {
     display: flex;
-    margin-left: 331px;
+    margin-left: auto;
+    margin-right: 50px;
 }
 
 .menu-contact li {
@@ -147,7 +150,7 @@ img {
 
 .main-nav {
     display: flex;
-    align-items: ;
+    align-items: center;
 }
 
 .filters {
@@ -202,8 +205,8 @@ img {
     cursor: pointer;
     display: inline-block;
     border-radius: 4px;
-    padding: 32px, 10px;
-    min-width: 200px;
+    padding: 32px 10px;
+    margin-top: 30px;
 }
 
 .modal-btn:hover,
