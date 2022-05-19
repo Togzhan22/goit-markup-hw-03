@@ -62,8 +62,6 @@ body {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 
@@ -73,7 +71,9 @@ body {
     background-color: #FFFFFF;
     color: var(--primary-text-color);
     text-align: left;
-    width: 1200px
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .logo {
@@ -296,7 +296,7 @@ body {
     padding-top: 94px;
     padding-bottom: 94px;
     width: 1200px;
-    padding-left: 15px;
+    padding-right: 15px;
     padding-left: 15px;
 }
 
