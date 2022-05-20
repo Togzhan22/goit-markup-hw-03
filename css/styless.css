@@ -175,8 +175,6 @@ body {
     margin-bottom: 30px;
 }
 
-.catalog .catalog-link:last-child {}
-
 .site-nav {
     color: var(--primary-text-color);
     font-weight: 500;
@@ -200,6 +198,10 @@ body {
 
 .contact-nav:hover,
 .contact-nav:focus {
+    color: #2196F3;
+}
+
+.contact-nav.current {
     color: #2196F3;
 }
 
