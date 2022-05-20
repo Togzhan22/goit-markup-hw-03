@@ -61,6 +61,7 @@ body {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
+    margin: 0 auto;
 }
 
 
@@ -68,12 +69,11 @@ body {
 
 .page-header {
     background-color: #FFFFFF;
-    color: var(--primary-text-color);
-    text-align: left;
-    width: 1200px;
-    padding-right: 15px;
-    padding-left: 15px;
     border-bottom: 1px solid #ECECEC;
+}
+
+.page-container {
+    display: flex;
 }
 
 .logo {
@@ -134,7 +134,6 @@ body {
 .menu-contact {
     display: flex;
     margin-left: auto;
-    margin-right: 50px;
 }
 
 .menu-contact li {
@@ -190,17 +189,13 @@ body {
 }
 
 .contact-nav {
-    color: var(--primary-text-color);
+    color: var(--title-color);
     font-weight: 500;
     font-size: 14px;
 }
 
 .contact-nav:hover,
 .contact-nav:focus {
-    color: #2196F3;
-}
-
-.contact-nav.current {
     color: #2196F3;
 }
 
@@ -252,11 +247,8 @@ body {
 .hero {
     color: #FFFFFF;
     background-color: var(--primary-text-color-theme-dark);
-    text-align: Center;
+    text-align: center;
     font-weight: 900;
-    width: 1200px;
-    padding-left: 15px;
-    padding-left: 15px;
     padding-top: 200px;
     padding-bottom: 200px;
 }
@@ -265,10 +257,12 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: Center;
+    text-align: center;
     vertical-align: Top;
     letter-spacing: 0.06em;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
+    max-width: 696px;
+    margin: 0 auto;
 }
 
 .filters-link {
@@ -297,13 +291,10 @@ body {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
-    width: 1200px;
-    padding-right: 15px;
-    padding-left: 15px;
 }
 
-.feature-list {
-    margin-right: 30px;
+.section-advantage {
+    padding-top: 94px;
 }
 
 .section-title {
@@ -314,10 +305,24 @@ body {
     margin-bottom: 50px;
 }
 
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+}
+
 .feature {
     display: flex;
     padding: 0;
     margin: 0;
+}
+
+.feature-list {
+    margin-right: 30px;
+    width: 270px;
+}
+
+.feature .feature-list:last-child {
+    margin-right: 0;
 }
 
 .employees {
@@ -458,5 +463,4 @@ body {
 
 .footer {
     background-color: var(--primary-text-color-theme-dark);
-    width: 1200px;
 }
